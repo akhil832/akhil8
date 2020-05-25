@@ -46,8 +46,6 @@ body {
 
 #nav-list {
     background-color: #e4af34;
-    text-align: center;
-    position: relative;
 }
 
 #nav-list a {
@@ -55,7 +53,6 @@ body {
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
-    text-align: center;
 }
 
 #nav-list a:hover {
