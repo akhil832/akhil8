@@ -26,6 +26,19 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+.nav{
+    display: none;
+}
+#nav-list a:hover .nav{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,100,0);
+
+}
+#nav-list a:hover .nav ul{
+    display: block;
+    margin: 10px;
+}
 
 #nav-list a {
   color: #80bad1;
